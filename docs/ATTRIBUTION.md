@@ -31,23 +31,3 @@ For app attribution we have put a code snippet to base file with APP_ID and MySh
 | myshopifyDomain | required | STRING   | MyShopify domain                         |
 | debug           | optional | BOOLEAN  | enables debugging messages to JS console |
 | onComplete      | optional | FUNCTION | Called when attribution was finished     |
-
-
-## Advanced solution
-
-For the attribution you can call the PJ Init function from the window object.
-
-```html
-<script type="application/javascript" src="https://cdn.partnerjam.com/sdk/pj.umd.js"></script>
-
-<script type="text/javascript">
-  window.PJ.init({
-    debug: true,
-    appId: 123456789,
-    myshopifyDomain: "example.myshopify.com",
-    onComplete: function() {
-      console.log("onComplete");
-    },
-  });
-</script>
-```
