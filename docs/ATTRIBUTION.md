@@ -31,6 +31,6 @@ As an alternative (more advanced solution) the snippet can be placed on a standa
 | KEY             | REQUIRED | TYPE     | DESCRIPTION                              |
 | --------------- | -------- | -------- | ---------------------------------------- |
 | appId           | required | INT      | Shopify App ID                           |
-| myshopifyDomain | required | STRING   | MyShopify domain                         |
-| debug           | optional | BOOLEAN  | enables debugging messages to JS console |
+| myshopifyDomain | required | STRING   | Dynamically inserted myshopify.com domain of the store using your app |
+| debug           | optional | BOOLEAN  | Enables debugging messages to JS console |
 | onComplete      | optional | FUNCTION | Called when attribution was finished     |
