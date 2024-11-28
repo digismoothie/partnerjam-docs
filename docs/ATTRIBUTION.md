@@ -1,12 +1,12 @@
-# PartnerJam - Attribution
+# PartnerJam – Attribution
 
-For app attribution you have to insert a code snippet with APP_ID and MyShopify domain parameter.
+For app attribution, you need to insert a code snippet containing the APP_ID and the MyShopify domain parameter.
 
-The snippet can be placed in your "base" component / template so that it renders on all pages of your application. This way it will make sure that attribution will be sent to PartnerJam sooner or later. At the same time it doesn't matter if the attribution will be send repeatedly - PartnerJam is ready for that.
+This snippet can be placed in your "base" component or template to ensure it renders on all pages of your application. This will ensure that attribution is sent to PartnerJam eventually. Additionally, it doesn’t matter if the attribution is sent multiple times—PartnerJam is equipped to handle that.
 
-As an alternative (more advanced solution) the snippet can be placed on a standalone page that is visited by the merchant only after the installation. In such case you can use the `onComplete` callback to make sure the attribution was sent before redirecting user to any other page. 
+As an alternative, a more advanced solution is to place the snippet on a standalone page, which the merchant visits only after installation. In this case, you can use the onComplete callback to ensure the attribution is sent before redirecting the user to any other page.
 
-
+**Subscription discount**: If you want to use the discount feature, please ensure you also implement the subscription discount request.
 
 ## Code snippet:
 ```html
@@ -34,3 +34,4 @@ As an alternative (more advanced solution) the snippet can be placed on a standa
 | myshopifyDomain | required | STRING   | Dynamically inserted myshopify.com domain of the store using your app |
 | debug           | optional | BOOLEAN  | Enables debugging messages to JS console |
 | onComplete      | optional | FUNCTION | Called when attribution was finished     |
+
