@@ -1,4 +1,4 @@
-# PartnerJam - Subscription Discount
+# PartnerJam – Subscription Discount
 
 ⚠️️ To get the value of the discount, you must first make the [attribution](./ATTRIBUTION.md). You can make sure that attribution was finished by subscribing to onComplete  callback.
 
