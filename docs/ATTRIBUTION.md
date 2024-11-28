@@ -6,7 +6,7 @@ This snippet can be placed in your "base" component or template to ensure it ren
 
 As an alternative, a more advanced solution is to place the snippet on a standalone page, which the merchant visits only after installation. In this case, you can use the onComplete callback to ensure the attribution is sent before redirecting the user to any other page.
 
-**Subscription discount**: If you want to use the discount feature, please ensure you also implement the subscription discount request.
+**Subscription discount**: If you want to use the discount feature, please ensure you also implement the [subscription discount request](/docs/SUBSCRIPTION_DISCOUNT.md).
 
 ## Code snippet:
 ```html
